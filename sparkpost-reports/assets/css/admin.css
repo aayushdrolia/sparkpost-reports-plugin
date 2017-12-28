@@ -1,0 +1,44 @@
+input.full-width {
+  width: 800px;
+}
+
+#ui-datepicker-div {
+  display: none;
+}
+
+input#events-reset {
+  background-color: #0085ba;
+  padding: 0 10px 1px;
+  border-color: #0073aa #006799 #006799;
+  margin-right: 30px;
+  box-shadow: 0 1px 0 #006799;
+  border-width: 1px;
+}
+
+input#events-submit {
+  margin-right: 30px;
+  margin-left: 10px;
+}
+
+.events-event-filter td >input {
+  margin-left: 20px;
+}
+
+.events-event-filter td >input:first-of-type{
+  margin-left:1px;
+}
+
+.spinner{
+  float: none;
+}
+
+.errors{
+  color: red;
+}
+
+#metrics-error, #events-error, #api-key-error{
+  border-left: 4px solid red;
+  width: 98%;
+}
+
+
